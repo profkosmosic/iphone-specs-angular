@@ -1,7 +1,25 @@
 #banner {
-    height: 1000px;
+    height: 1035px;
+    display: flex;
 }
 
-#banner img {
-    height: 1000px;
+#phoneBanner {
+    width: 50%;
+}
+
+#phoneBanner img {
+    width: 100%;
+}
+
+#welcome {
+    width: 50%;
+}
+
+h1, p {
+    font-family: appFont;
+    text-align: center;
+}
+
+h1 {
+    font-size: 48px;
 }
