@@ -1,6 +1,7 @@
 #banner {
-    height: 1035px;
+    height: 1000px;
     display: flex;
+    align-items: center;
 }
 
 #phoneBanner {
@@ -22,4 +23,9 @@ h1, p {
 
 h1 {
     font-size: 48px;
+    margin-top: 0px;
+}
+
+p {
+    font-size: 28px;
 }
