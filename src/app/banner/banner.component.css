@@ -14,6 +14,30 @@
 
 #welcome {
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#learnMore {
+    margin-top: 50px;
+    padding: 25px;
+    border: 5px solid gray;
+    border-radius: 15px;
+    font-family: appFont;
+    font-size: 24px;
+    color: black;
+}
+
+#learnMore:hover {
+    background-color: gray;
+    color: white;
+}
+
+#content {
+    background-color: gray;
+    border-radius: 25px;
+    width: 600px;
 }
 
 h1, p {
