@@ -22,22 +22,26 @@
 #learnMore {
     margin-top: 50px;
     padding: 25px;
-    border: 5px solid gray;
     border-radius: 15px;
     font-family: appFont;
     font-size: 24px;
-    color: black;
-}
-
-#learnMore:hover {
-    background-color: gray;
+    background-color: #0071e3;
     color: white;
 }
 
+#learnMore:hover {
+    background-color: #005ee3;
+}
+
 #content {
-    background-color: gray;
-    border-radius: 25px;
     width: 600px;
+}
+
+.diff {
+    background-color: black;
+    color: white;
+    font-style: normal;
+    padding: 5px;
 }
 
 h1, p {
