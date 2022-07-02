@@ -1,3 +1,8 @@
+@font-face {
+    font-family: appFont;
+    src: url(assets/fonts/sf_pro.otf);
+}
+
 body {
     margin: 0 auto;
 }

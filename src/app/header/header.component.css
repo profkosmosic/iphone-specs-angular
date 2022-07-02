@@ -24,8 +24,9 @@ nav {
 }
 
 nav a {
+    font-family: appFont;
     margin-right: 50px;
-    font-size: 36px;
+    font-size: 34px;
     color: white;
 }
 
