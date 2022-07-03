@@ -33,6 +33,10 @@ nav a {
     color: white;
 }
 
+nav a:hover {
+    text-decoration: underline;
+}
+
 @media (max-width: 650px) {
     header {
         height: 75px;
