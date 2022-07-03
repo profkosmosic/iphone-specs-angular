@@ -57,3 +57,44 @@ h1 {
 p {
     font-size: 28px;
 }
+
+@media (max-width: 1360px) {
+    h1 {
+        font-size: 36px;
+        margin-bottom: 36px;
+    }
+
+    p {
+        font-size: 24px;
+    }
+
+    #learnMore {
+        margin-top: 35px;
+        padding: 20px;
+        border-radius: 10px;
+        font-size: 24px;
+    }
+
+    #banner {
+        height: 850px;
+    }
+}
+
+@media (max-width: 1000px) {
+    #banner {
+        flex-direction: column;
+        height: 1325px;
+    }
+
+    #phoneBanner {
+        width: 75%;
+    }
+
+    #welcome {
+        width: 75%;
+    }
+
+    h1 {
+        margin-top: 25px;
+    }
+}
