@@ -7,4 +7,5 @@ export interface IProduct {
     screenResolution:string;
     cpu:string;
     camera:number;
+    memory:number;
 }
