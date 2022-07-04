@@ -11,4 +11,12 @@ import { IProduct } from '../interfaces/i-product';
 export class ProductsService {
 
   constructor(private http:HttpClient) { }
+
+  getAll():Observable<IProduct[]> {
+    return this.http.get<IProduct[]>(serverPath + api.devices);
+  }
+
+  get(id: number | string): Observable<IProduct> {
+    return this.http.get<IProduct>(serverPath + api.devices + "/" + id);
+  }
 }
