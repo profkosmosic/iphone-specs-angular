@@ -5,6 +5,7 @@ p, a, h1 {
 h1 {
     text-align: center;
     font-size: 48px;
+    margin-bottom: 100px;
 }
 
 p, a {
@@ -50,4 +51,34 @@ a:hover {
     color: white;
     font-style: normal;
     padding: 5px;
+}
+
+@media (max-width: 1600px) {
+    .phone {
+        width: 33%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .phone {
+        width: 40%;
+    }
+
+    h1 {
+        margin-bottom: 75px;
+    }
+
+    #content {
+        height: 2800px;
+    }
+}
+
+@media (max-width: 800px) {
+    .phone {
+        width: 45%;
+    }
+
+    #content {
+        height: 2500px;
+    }
 }
