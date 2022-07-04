@@ -11,6 +11,7 @@ import { ProductsService } from '../../services/products.service';
 export class ProductsComponent implements OnInit {
 
   productList:IProduct[] = [];
+  selectedProduct?:IProduct;
 
   constructor(private productsService:ProductsService) { }
 
@@ -21,6 +22,10 @@ export class ProductsComponent implements OnInit {
   getAll():void {
     this.productsService.getAll()
       .subscribe(products => this.productList = products);
+  }
+
+  selectProduct(product:IProduct) {
+    this.selectedProduct = product;
   }
 
 }
