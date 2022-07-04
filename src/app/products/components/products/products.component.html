@@ -1,5 +1,10 @@
-<article id="content">
-    <section class="phone" *ngFor="let product of productList">
-        <p>{{product.name}}</p>
-    </section>
+<h1>Choose your <i class="diff">Destiny!</i></h1>
+<article id="front">
+    <article id="content">
+        <section class="phone" *ngFor="let product of productList">
+            <img src={{product.image}} alt={{product.name}}/>
+            <p>{{product.name}}</p>
+            <a routerLink="{{product.id}}">Learn more</a>
+        </section>
+    </article>
 </article>
