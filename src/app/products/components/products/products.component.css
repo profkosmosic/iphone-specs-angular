@@ -75,10 +75,24 @@ a:hover {
 
 @media (max-width: 800px) {
     .phone {
-        width: 45%;
+        width: 50%;
     }
 
     #content {
         height: 2500px;
+    }
+}
+
+@media (max-width: 500px) {
+    .phone {
+        width: 75%;
+    }
+
+    h1 {
+        margin-bottom: 50px;
+    }
+
+    #content {
+        height: 4500px;
     }
 }
