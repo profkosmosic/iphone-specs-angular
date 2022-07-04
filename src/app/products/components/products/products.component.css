@@ -66,6 +66,7 @@ a:hover {
 
     h1 {
         margin-bottom: 75px;
+        font-size: 42px;
     }
 
     #content {
@@ -78,18 +79,23 @@ a:hover {
         width: 50%;
     }
 
+    p, a {
+        font-size: 20px;
+    }
+
     #content {
         height: 2500px;
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
     .phone {
         width: 75%;
     }
 
     h1 {
         margin-bottom: 50px;
+        font-size: 36px;
     }
 
     #content {
