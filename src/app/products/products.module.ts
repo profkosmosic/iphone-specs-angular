@@ -4,12 +4,14 @@ import { CommonModule } from '@angular/common';
 import { ProductsRoutingModule } from './products-routing.module';
 import { ProductsComponent } from './components/products/products.component';
 import { ProductComponent } from './components/product/product.component';
+import { GigabytePipe } from './pipes/gigabyte.pipe';
 
 
 @NgModule({
   declarations: [
     ProductsComponent,
-    ProductComponent
+    ProductComponent,
+    GigabytePipe
   ],
   imports: [
     CommonModule,
