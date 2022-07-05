@@ -3,8 +3,8 @@ export interface IProduct {
     name:string;
     image:string;
     capacity:number;
-    screenSize:number;
-    screenResolution:string;
+    screen_size:number;
+    screen_res:string;
     cpu:string;
     camera:number;
     memory:number;
