@@ -5,8 +5,8 @@ import { Pipe, PipeTransform } from '@angular/core';
 })
 export class Inch2cmPipe implements PipeTransform {
 
-  transform(value: unknown, ...args: unknown[]): unknown {
-    return null;
+  transform(n: number) {
+    return (n * 2.54).toFixed(2) + "cm";
   }
 
 }

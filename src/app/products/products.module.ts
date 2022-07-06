@@ -6,6 +6,7 @@ import { ProductsComponent } from './components/products/products.component';
 import { ProductComponent } from './components/product/product.component';
 import { GigabytePipe } from './pipes/gigabyte.pipe';
 import { Inch2cmPipe } from './pipes/inch2cm.pipe';
+import { MegapixelPipe } from './pipes/megapixel.pipe';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { Inch2cmPipe } from './pipes/inch2cm.pipe';
     ProductsComponent,
     ProductComponent,
     GigabytePipe,
-    Inch2cmPipe
+    Inch2cmPipe,
+    MegapixelPipe
   ],
   imports: [
     CommonModule,

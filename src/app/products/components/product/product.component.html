@@ -7,12 +7,12 @@
             </section>
             <section id="specs">
                 <p><i class="diff">Name:</i> {{product.name}}</p>
-                <p><i class="diff">Screen Size:</i> {{product.screen_size}}</p>
+                <p><i class="diff">Screen Size:</i> {{product.screen_size | inch2cm}}</p>
                 <p><i class="diff">Screen Resolution:</i> {{product.screen_res}}</p>
                 <p><i class="diff">CPU:</i> {{product.cpu}}</p>
                 <p><i class="diff">Memory:</i> {{product.memory | gigabyte}}</p>
                 <p><i class="diff">Storage:</i> {{product.capacity | gigabyte}}</p>
-                <p><i class="diff">Camera:</i> {{product.camera}}</p>
+                <p><i class="diff">Camera:</i> {{product.camera | megapixel}}</p>
             </section>
         </section>
     </section>
