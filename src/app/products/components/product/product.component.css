@@ -8,6 +8,10 @@ h1 {
     margin-bottom: 100px;
 }
 
+p {
+    font-size: 24px;
+}
+
 #center {
     display: flex;
     justify-content: center;
@@ -17,5 +21,13 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 80%;
+    width: 55%;
+}
+
+#center {
+    margin-bottom: 100px;
+}
+
+img {
+
 }
