@@ -15,19 +15,70 @@ p {
 #center {
     display: flex;
     justify-content: center;
+    margin-bottom: 100px;
 }
 
 #container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 55%;
-}
-
-#center {
-    margin-bottom: 100px;
+    width: 60%;
+    height: 500px;
 }
 
 img {
+    width: 100%;
+    height: 100%;
+}
 
+.diff {
+    background-color: black;
+    color: white;
+    font-style: normal;
+    padding: 5px;
+}
+
+@media (max-width: 1500px) {
+    #container {
+        width: 67%;
+    }
+}
+
+@media (max-width: 1360px) {
+    #container {
+        width: 76%;
+    }
+
+    p {
+        font-size: 22px;
+    }
+
+    #display {
+        height: 400px;
+    }
+}
+
+@media (max-width: 1000px) {
+    #container {
+        flex-direction: column;
+        height: 800px;
+    }
+
+    h1 {
+        margin-bottom: 50px;
+    }
+
+    #display {
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+        font-size: 20px;
+    }
+
+    #container {
+        width: 95%;
+    }
 }

@@ -6,13 +6,13 @@
                 <img src={{product.image}} alt={{product.name}}/>
             </section>
             <section id="specs">
-                <p>Name: {{product.name}}</p>
-                <p>Screen Size: {{product.screen_size}}</p>
-                <p>Screen Resolution: {{product.screen_res}}</p>
-                <p>CPU: {{product.cpu}}</p>
-                <p>Memory: {{product.memory | gigabyte}}</p>
-                <p>Storage: {{product.capacity | gigabyte}}</p>
-                <p>Camera Quality: {{product.camera}}</p>
+                <p><i class="diff">Name:</i> {{product.name}}</p>
+                <p><i class="diff">Screen Size:</i> {{product.screen_size}}</p>
+                <p><i class="diff">Screen Resolution:</i> {{product.screen_res}}</p>
+                <p><i class="diff">CPU:</i> {{product.cpu}}</p>
+                <p><i class="diff">Memory:</i> {{product.memory | gigabyte}}</p>
+                <p><i class="diff">Storage:</i> {{product.capacity | gigabyte}}</p>
+                <p><i class="diff">Camera:</i> {{product.camera}}</p>
             </section>
         </section>
     </section>
