@@ -18,6 +18,11 @@ p {
     margin-bottom: 100px;
 }
 
+#specs {
+    border: 1px grey solid;
+    padding: 0px 10px;
+}
+
 #container {
     display: flex;
     justify-content: space-between;
@@ -38,7 +43,7 @@ img {
     padding: 5px;
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 1550px) {
     #container {
         width: 67%;
     }
@@ -58,7 +63,7 @@ img {
     }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1030px) {
     #container {
         flex-direction: column;
         height: 800px;
@@ -80,5 +85,9 @@ img {
 
     #container {
         width: 95%;
+    }
+
+    #specs {
+        padding: 0px 5px;
     }
 }
