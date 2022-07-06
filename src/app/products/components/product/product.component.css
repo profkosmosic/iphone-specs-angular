@@ -1,0 +1,21 @@
+p, h1 {
+    font-family: appFont;
+}
+
+h1 {
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 100px;
+}
+
+#center {
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}

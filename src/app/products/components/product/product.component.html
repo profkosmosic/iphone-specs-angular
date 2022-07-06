@@ -1,14 +1,19 @@
 <article id="details" *ngIf="product">
-    <section id="display">
-        <img src={{product.image}} alt={{product.name}}/>
-    </section>
-    <section id="specs">
-        <p>Name: {{product.name}}</p>
-        <p>Screen Size: {{product.screen_size}}</p>
-        <p>Screen Resolution: {{product.screen_res}}</p>
-        <p>CPU: {{product.cpu}}</p>
-        <p>Memory: {{product.memory | gigabyte}}</p>
-        <p>Storage: {{product.capacity | gigabyte}}</p>
-        <p>Camera Quality: {{product.camera}}</p>
+    <h1>{{product.name}}</h1>
+    <section id="center">
+        <section id="container">
+            <section id="display">
+                <img src={{product.image}} alt={{product.name}}/>
+            </section>
+            <section id="specs">
+                <p>Name: {{product.name}}</p>
+                <p>Screen Size: {{product.screen_size}}</p>
+                <p>Screen Resolution: {{product.screen_res}}</p>
+                <p>CPU: {{product.cpu}}</p>
+                <p>Memory: {{product.memory | gigabyte}}</p>
+                <p>Storage: {{product.capacity | gigabyte}}</p>
+                <p>Camera Quality: {{product.camera}}</p>
+            </section>
+        </section>
     </section>
 </article>
