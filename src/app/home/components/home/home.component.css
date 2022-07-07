@@ -37,18 +37,6 @@
     width: 75%;
 }
 
-#suggestion {
-    height: 450px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#prompt {
-    width: 75%;
-    text-align: center;
-}
-
 .diff {
     background-color: black;
     color: white;
