@@ -1,4 +1,10 @@
-# IphoneSpecs
+# iPhone Specs
+
+A web app for viewing specifications of iPhone devices.
+
+This web app requires an API to work.
+
+The iPhone and the Apple logo belongs to Apple Inc.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.2.
 
