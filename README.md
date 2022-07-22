@@ -2,7 +2,7 @@
 
 A web app for viewing specifications of iPhone devices.
 
-This web app requires an API to work.
+This web app requires an API to work.<a href="https://github.com/profkosmosic/iphone-specs-api-PHP"> Download the API here</a>
 
 The iPhone and the Apple logo belongs to Apple Inc.
 
