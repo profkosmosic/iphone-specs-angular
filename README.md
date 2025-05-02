@@ -1,11 +1,7 @@
 # iPhone Specs
 
-A web app for viewing specifications of iPhone devices.
-
-This web app requires an API to work.<a href="https://github.com/profkosmosic/iphone-specs-api-PHP"> Download the API here</a>
-
-The iPhone and the Apple logo belongs to Apple Inc.
-
+A web app for viewing specifications of iPhone devices.<br/>
+The iPhone and the Apple logo belongs to Apple Inc.<br/>
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.2.
 
 ## Development server
